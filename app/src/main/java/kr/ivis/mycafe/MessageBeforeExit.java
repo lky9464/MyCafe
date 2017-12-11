@@ -7,7 +7,7 @@ import android.widget.Toast;
  * Created by it on 2017. 12. 9..
  */
 
-public class MessageBeforeExit { //앱을 종료할것인지 물어보는 기능
+public class MessageBeforeExit { //초기화면에서 뒤로가기 터치시 앱을 정말 종료할 것인지 물어보는 기능
 
     private long backKeyPressedTime = 0;
     private Toast toast;
@@ -19,12 +19,12 @@ public class MessageBeforeExit { //앱을 종료할것인지 물어보는 기능
     }
 
     public void onBackPressed() {
-        if(System.currentTimeMillis() > backKeyPressedTime + 2500) {
+        if(System.currentTimeMillis() > backKeyPressedTime + 2500) { //2.5초 이후에 뒤로가기 클릭시
             backKeyPressedTime = System.currentTimeMillis();
             showGuide();
             return;
         }
-        if(System.currentTimeMillis() <= backKeyPressedTime + 2500) {
+        if(System.currentTimeMillis() <= backKeyPressedTime + 2500) { //2.5초 이내에 뒤로가기 터치시
             activity.finish();
             toast.cancel();
         }
