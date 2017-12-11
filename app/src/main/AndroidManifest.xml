@@ -44,6 +44,8 @@
             android:label="@string/title_activity_maps" />
         <activity android:name=".DeveloperActivity" />
         <activity android:name=".HowtoActivity"></activity>
+        <activity android:name=".LocSelectActivity"></activity>
+        <activity android:name=".PicActivity"></activity>
     </application>
 
 </manifest>

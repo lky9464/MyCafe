@@ -20,7 +20,7 @@ public class HowtoActivity extends AppCompatActivity {
         hLayout.setBackgroundColor(Color.rgb(255, 217, 236)); //레이아웃 색상 rgb값으로 설정
 
         appdesc = (TextView) findViewById(R.id.appDesc);
-        appdesc.setText(" 이 앱은 각 지역별 인기카페 정보를 제공하는 앱입니다.\n\n\n" +
+        appdesc.setText(" 이 앱은 경남 각 지역별 인기카페 정보를 제공하는 앱입니다.\n\n\n" +
                 " 초기 화면의 '시작하기' 버튼을 누르면 경남 18개\n시/군을 고를 수 있습니다.\n\n\n" +
                 " 지역을 고르면 해당지역의 추천 카페 리스트를\n볼 수 있는데, 원하는 카페를 터치하면 해당 카페의\n정보를 볼 수 있습니다.\n\n\n" +
                 " '지도보기'와 '전화걸기'를 통해 편하게 매장에\n전화를 걸거나, 위치정보 등을 알 수 있습니다.\n\n" +
