@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_loc_select"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="kr.ivis.mycafe.LocSelectActivity">
+
+    <ImageView
+        android:id="@+id/kn_map"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kyeongnam_map" />
+
+
+    <Button
+        android:id="@+id/geochang"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <Button
+        android:id="@+id/hapcheon"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <Button
+        android:id="@+id/uiryeong"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.41000003" />
+
+    <Button
+        android:id="@+id/changnyeong"
+        android:layout_width="31dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <Button
+        android:id="@+id/miryang"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <Button
+        android:id="@+id/yangsan"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <Button
+        android:id="@+id/gimhae"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map" />
+
+    <Button
+        android:id="@+id/changwon"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.55" />
+
+    <Button
+        android:id="@+id/hamahn"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <Button
+        android:id="@+id/sancheong"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <Button
+        android:id="@+id/hamyang"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.32999998" />
+
+    <Button
+        android:id="@+id/hadong"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.63" />
+
+    <Button
+        android:id="@+id/jinju"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <Button
+        android:id="@+id/sacheon"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.65999997" />
+
+    <Button
+        android:id="@+id/gosung"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.69" />
+
+    <Button
+        android:id="@+id/tongyeong"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.86" />
+
+    <Button
+        android:id="@+id/geoje"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.78" />
+
+    <Button
+        android:id="@+id/namhae"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+
+        android:background="@android:color/transparent"
+        android:text="     "
+        app:layout_constraintBottom_toBottomOf="@id/kn_map"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintLeft_toLeftOf="@id/kn_map"
+        app:layout_constraintRight_toRightOf="@id/kn_map"
+        app:layout_constraintTop_toTopOf="@+id/kn_map"
+        app:layout_constraintVertical_bias="0.88" />
+
+    <TextView
+        android:id="@+id/loctitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:text="지역선택"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/kn_map" />
+
+    <TextView
+        android:id="@+id/howto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="원하는 지역을 터치해주세요."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

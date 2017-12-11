@@ -1,0 +1,217 @@
+<resources>
+    <string name="app_name">CafeDa</string>
+
+    <string-array name="loc_name">
+        <item>거창군</item>
+        <item>거제시</item>
+        <item>고성군</item>
+        <item>김해시</item>
+        <item>남해군</item>
+        <item>밀양시</item>
+        <item>사천시</item>
+        <item>산청군</item>
+        <item>양산시</item>
+        <item>의령군</item>
+        <item>진주시</item>
+        <item>창원시</item>
+        <item>창녕군</item>
+        <item>통영시</item>
+        <item>하동군</item>
+        <item>함안군</item>
+        <item>함양군</item>
+        <item>합천군</item>
+    </string-array>
+
+    <string-array name="cafes_거창군">
+        <item>감성카페아메리카노</item>
+        <item>더무그</item>
+        <item>디애플스토리</item>
+        <item>뿌에블로젤라또</item>
+        <item>카페외갓집</item>
+        <item>커피마루</item>
+        <item>커피브라운</item>
+        <item>컵오브커피 거창점</item>
+        <item>코너131</item>
+        <item>플래닛커피</item>
+    </string-array>
+
+    <string-array name="cafes_거제시">
+        <item>바람의핫도그</item>
+        <item>볼리에르</item>
+        <item>블랙업커피 거제점</item>
+        <item>블루밍제이</item>
+        <item>섬타임</item>
+        <item>아나무라</item>
+        <item>에버어뮤즈</item>
+        <item>카페상상</item>
+        <item>포뷰</item>
+    </string-array>
+
+    <string-array name="cafes_고성군">
+        <item>당동박씨네커피</item>
+        <item>디노커피</item>
+        <item>선셋</item>
+        <item>소담수목원카페</item>
+        <item>폴라리스</item>
+    </string-array>
+
+    <string-array name="cafes_김해시">
+        <item>낙도맨션</item>
+        <item>달카페</item>
+        <item>도로시플레이트</item>
+        <item>마일커피</item>
+        <item>솔렌더</item>
+        <item>일루소</item>
+        <item>카페달리아</item>
+        <item>카페오닉스</item>
+        <item>폴인커피강</item>
+        <item>필로</item>
+    </string-array>
+
+    <string-array name="cafes_남해군">
+        <item>라 벨라</item>
+        <item>엘가커피</item>
+        <item>카페유자</item>
+        <item>코나하우스</item>
+        <item>쿤스트라운지</item>
+        <item>크란츠러카페</item>
+        <item>펠리스카페</item>
+    </string-array>
+
+    <string-array name="cafes_밀양시">
+        <item>노을이쁜카페</item>
+        <item>마리옹</item>
+        <item>메모리아</item>
+        <item>카페지디</item>
+        <item>카페하비비</item>
+        <item>커피명가 밀양아랑점</item>
+        <item>트리인블루</item>
+        <item>햇살이머무는정원</item>
+        <item>홀릭</item>
+    </string-array>
+
+    <string-array name="cafes_사천시">
+        <item>더웨이닝커피 삼천포대교점</item>
+        <item>모엘루</item>
+        <item>카페정미소</item>
+        <item>카페코끼리</item>
+        <item>커피레</item>
+        <item>커피필라멘트</item>
+        <item>타르팩토리</item>
+    </string-array>
+
+    <string-array name="cafes_산청군">
+        <item>카페모티</item>
+        <item>카페솔직한곰</item>
+        <item>카페아모르</item>
+        <item>카페엘림</item>
+        <item>카페플래닛27</item>
+    </string-array>it
+
+    <string-array name="cafes_양산시">
+        <item>구름에반하다</item>
+        <item>스트롤링커피</item>
+        <item>스페이스나무</item>
+        <item>카페블루지앤</item>
+        <item>카페오조</item>
+        <item>카페잍</item>
+        <item>카페해바라기</item>
+    </string-array>
+
+    <string-array name="cafes_의령군">
+        <item>그린프로그</item>
+        <item>새콩커피</item>
+        <item>카페세그루</item>
+        <item>파인그로브</item>
+        <item>힐링카페</item>
+    </string-array>
+
+    <string-array name="cafes_진주시">
+        <item>로스팅웨어</item>
+        <item>마미니</item>
+        <item>블랙바닐라</item>
+        <item>소확행</item>
+        <item>울트라블루</item>
+        <item>카페아르볼</item>
+        <item>펄디스트릭</item>
+        <item>허니타임</item>
+    </string-array>
+
+    <string-array name="cafes_창원시">
+        <item>1997영국집</item>
+        <item>S9</item>
+        <item>가로수</item>
+        <item>경성코페 귀곡점</item>
+        <item>그래시헤이</item>
+        <item>더 클라우드</item>
+        <item>브라운핸즈</item>
+        <item>스팀펑크</item>
+        <item>스페이스펀</item>
+        <item>카페미뇽</item>
+        <item>컴포즈 창원시청점</item>
+        <item>타르타르 상남점</item>
+    </string-array>
+
+    <string-array name="cafes_창녕군">
+        <item>노리</item>
+        <item>모다페</item>
+        <item>슈가파우더</item>
+        <item>우포로와</item>
+        <item>카페89도씨</item>
+        <item>카페파인</item>
+        <item>커피볶는집 프리모</item>
+    </string-array>
+
+    <string-array name="cafes_통영시">
+        <item>까사베르데</item>
+        <item>꿀단지</item>
+        <item>바이사이드</item>
+        <item>보다나은</item>
+        <item>안트워프커피</item>
+        <item>카페바다봄</item>
+        <item>카페울라봉</item>
+        <item>카페이봄</item>
+        <item>헤이수오미</item>
+    </string-array>
+
+    <string-array name="cafes_하동군">
+        <item>누마루한옥커피</item>
+        <item>블리스커피 보문점</item>
+        <item>소더비</item>
+        <item>카페로드100</item>
+        <item>커피앤크레마</item>
+        <item>품안</item>
+        <item>한옥카페부연</item>
+    </string-array>
+
+    <string-array name="cafes_함안군">
+        <item>그루브맨커피</item>
+        <item>멜로우</item>
+        <item>에이미스커피 경남함안점</item>
+        <item>인터라켄</item>
+        <item>카페드아라</item>
+        <item>카페타밀</item>
+    </string-array>
+
+    <string-array name="cafes_함양군">
+        <item>다소니</item>
+        <item>작은카페테이블</item>
+        <item>카페엔</item>
+        <item>케빈커피로스터스</item>
+        <item>황금마차</item>
+    </string-array>
+
+    <string-array name="cafes_합천군">
+        <item>님프</item>
+        <item>이모하</item>
+        <item>인스커피</item>
+        <item>카페다온</item>
+        <item>카페리조트인더시티</item>
+        <item>카페뮤즈</item>
+        <item>커피베이 합천점</item>
+        <item>플로리안</item>
+    </string-array>
+
+    <string name="title_activity_maps">Map</string>
+
+</resources>
