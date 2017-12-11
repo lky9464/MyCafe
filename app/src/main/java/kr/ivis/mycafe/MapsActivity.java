@@ -38,17 +38,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        String cafeName = getIntent().getStringExtra("CafeName");
+        String cafeName = getIntent().getStringExtra("CafeName");//이전 액티비티에서 가져온 카페 이름들
 
         // Add a marker in Sydney and move the camera
 
         /*************************************창원*********************************************/
         if(cafeName.equals("1997영국집")) {
-            LatLng cl = new LatLng(35.238164, 128.682042);
-            mMap.addMarker(new MarkerOptions().position(cl).title("1997영국집"));
+            LatLng cl = new LatLng(35.238164, 128.682042);//해당 카페위치 죄표
+            mMap.addMarker(new MarkerOptions().position(cl).title("1997영국집"));//마커 이름
             mMap.moveCamera(CameraUpdateFactory.newLatLng(cl));
 
-            mMap.moveCamera(CameraUpdateFactory.zoomTo(16));
+            mMap.moveCamera(CameraUpdateFactory.zoomTo(16)); //확대 배율
         }
         else if(cafeName.equals("S9")){
             LatLng cl = new LatLng(35.247985, 128.687903);

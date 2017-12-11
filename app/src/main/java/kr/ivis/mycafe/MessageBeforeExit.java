@@ -7,7 +7,7 @@ import android.widget.Toast;
  * Created by it on 2017. 12. 9..
  */
 
-public class MessageBeforeExit {
+public class MessageBeforeExit { //앱을 종료할것인지 물어보는 기능
 
     private long backKeyPressedTime = 0;
     private Toast toast;
