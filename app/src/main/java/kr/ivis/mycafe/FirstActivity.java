@@ -30,7 +30,7 @@ public class FirstActivity extends AppCompatActivity {
 
 
         fLayout = (ConstraintLayout) findViewById(R.id.activity_first);
-        fLayout.setBackgroundColor(Color.rgb(255, 217, 236));
+        fLayout.setBackgroundColor(Color.rgb(255, 217, 236)); //레이아웃 색상 rgb값으로 설정
 
         title = (TextView) findViewById(R.id.appTitle);
 

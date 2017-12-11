@@ -21,6 +21,7 @@ public class LocSelectActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loc_select);
 
+        //각 지역별 버튼
         geochang_btn = findViewById(R.id.geochang);
         hapcheon_btn = findViewById(R.id.hapcheon);
         uiryeong_btn = findViewById(R.id.uiryeong);
@@ -44,7 +45,7 @@ public class LocSelectActivity extends AppCompatActivity {
 
         geochang_btn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view) { //해당지역 버튼 터치시 해당지역카페 목록을 다음 액티비티에 넘겨줌
                 Intent intent = new Intent(LocSelectActivity.this, MainActivity.class);
                 intent.putExtra("Selected", "거창군");
                 startActivity(intent);

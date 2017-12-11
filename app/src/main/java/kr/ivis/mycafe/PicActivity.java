@@ -18,7 +18,7 @@ public class PicActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pic);
 
         pLayout = (RelativeLayout) findViewById(R.id.activity_pic);
-        pLayout.setBackgroundColor(Color.rgb(255,217,236));
+        pLayout.setBackgroundColor(Color.rgb(255,217,236)); //레이아웃 색상 지정
 
         pics = (ImageView) findViewById(R.id.cafePic);
         pics2 = (ImageView) findViewById(R.id.cafePic2);

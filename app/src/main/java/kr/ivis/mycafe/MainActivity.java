@@ -21,10 +21,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mLayout = (RelativeLayout) findViewById(R.id.activity_main);
+        //레이아웃의 색상을 rgb값으로 설정
         mLayout.setBackgroundColor(Color.rgb(255, 217, 236));
 
         final String Selected = getIntent().getStringExtra("Selected");
         listView = findViewById(R.id.listView);
+        //리스트뷰의 색상을 rgb값으로 설정
         listView.setBackgroundColor(Color.rgb(255,240,236));
 
         String strArray[] = new String[1];

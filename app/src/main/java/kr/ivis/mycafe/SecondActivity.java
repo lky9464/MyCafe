@@ -18,9 +18,9 @@ import android.widget.Toast;
 
 public class SecondActivity extends AppCompatActivity {
 
-    ImageView cafeinfo;
-    TextView cafename, cafeaddress, cafetime;
-    Button call, pic, location;
+    ImageView cafeinfo; //카페대표사진 이미지뷰
+    TextView cafename, cafeaddress, cafetime; //카페 이름, 주소, 운영 시간 텍스트뷰
+    Button call, pic, location; //전화걸기, 사진더보기, 지도보기 버튼
     RelativeLayout sLayout;
 
     @Override
@@ -29,7 +29,7 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         sLayout = (RelativeLayout) findViewById(R.id.activity_second);
-        sLayout.setBackgroundColor(Color.rgb(255,217,236)); //레이아웃 색상
+        sLayout.setBackgroundColor(Color.rgb(255,217,236)); //레이아웃 색상을 rgb값으로 설정
 
         cafename = (TextView) findViewById(R.id.nameTextView);
         cafeaddress = (TextView) findViewById(R.id.addressTextView);
@@ -45,7 +45,7 @@ public class SecondActivity extends AppCompatActivity {
         /****************************************창원*****************************************/
         if (cafeName.equals("1997영국집")) {
             cafeinfo.setImageDrawable(ContextCompat.getDrawable(SecondActivity.this,
-                    R.drawable.ukhousepic));
+                    R.drawable.ukhousepic)); //해당카페 대표사진을 보여주는 이미지뷰
             cafename.setText("이름 : 1997영국집");
             cafeaddress.setText("위치 : 경남 창원시 의창구 외동반림로248번길 25");
             cafetime.setText("영업시간 : 10:00 ~ 22:30");

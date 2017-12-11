@@ -17,7 +17,7 @@ public class HowtoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_howto);
 
         hLayout = (RelativeLayout) findViewById(R.id.activity_howto);
-        hLayout.setBackgroundColor(Color.rgb(255, 217, 236));
+        hLayout.setBackgroundColor(Color.rgb(255, 217, 236)); //레이아웃 색상 rgb값으로 설정
 
         appdesc = (TextView) findViewById(R.id.appDesc);
         appdesc.setText(" 이 앱은 각 지역별 인기카페 정보를 제공하는 앱입니다.\n\n\n" +

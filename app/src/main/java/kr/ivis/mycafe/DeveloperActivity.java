@@ -14,7 +14,7 @@ public class DeveloperActivity extends AppCompatActivity {
         setContentView(R.layout.activity_developer);
 
         dLayout = (RelativeLayout) findViewById(R.id.activity_developer);
-        dLayout.setBackgroundColor(Color.rgb(255, 217, 236));
+        dLayout.setBackgroundColor(Color.rgb(255, 217, 236)); //레이아웃 색상 rgb값으로 설정
 
     }
 }

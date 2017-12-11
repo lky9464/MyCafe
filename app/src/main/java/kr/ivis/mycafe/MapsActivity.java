@@ -42,6 +42,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         // Add a marker in Sydney and move the camera
 
+
+
+        //GoogleMap을 이용해 카페 이름에 따른 지역 표시
         /*************************************창원*********************************************/
         if(cafeName.equals("1997영국집")) {
             LatLng cl = new LatLng(35.238164, 128.682042);//해당 카페위치 죄표
