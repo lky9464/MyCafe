@@ -21,16 +21,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mLayout = (RelativeLayout) findViewById(R.id.activity_main);
+
         //레이아웃의 색상을 rgb값으로 설정
         mLayout.setBackgroundColor(Color.rgb(255, 217, 236));
 
         final String Selected = getIntent().getStringExtra("Selected");
         listView = findViewById(R.id.listView);
+
         //리스트뷰의 색상을 rgb값으로 설정
         listView.setBackgroundColor(Color.rgb(255,240,236));
 
         String strArray[] = new String[1];
+
+        //이전 액티비티에서 넘겨받은 Selected의 상태에 따라 구분한 조건문
         switch (Selected){
+            // ex) 앞서 받아온 Selected가 거창군이면 -> 거창군 카페
             case "거창군": strArray = getResources().getStringArray(R.array.cafes_거창군);break;
             case "합천군": strArray = getResources().getStringArray(R.array.cafes_합천군);break;
             case "의령군": strArray = getResources().getStringArray(R.array.cafes_의령군);break;
@@ -50,14 +55,16 @@ public class MainActivity extends AppCompatActivity {
             case "통영시": strArray = getResources().getStringArray(R.array.cafes_통영시);break;
             case "남해군": strArray = getResources().getStringArray(R.array.cafes_남해군);break;
         }
+
+        //리스트뷰에 각 지역별 카페 배열(카페이름들)을 어댑터로 연결시켜줌.
         listView.setAdapter(new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1,strArray));
 
+        //리스트뷰의 여러 카페들 중 사용자가 선택한 카페의 이름을 받아 SecondActivity로 넘겨줌
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 intent.putExtra("CafeName", listView.getItemAtPosition(position).toString());
-                intent.putExtra("Selected", Selected);
                 startActivity(intent);
             }
         });

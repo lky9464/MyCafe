@@ -24,18 +24,21 @@ public class PicActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pic);
 
         pLayout = (RelativeLayout) findViewById(R.id.activity_pic);
-        pLayout.setBackgroundColor(Color.rgb(255,217,236)); //레이아웃 색상 지정
+        pLayout.setBackgroundColor(Color.rgb(255,217,236)); //레이아웃 색상 rgb값으로 설정
 
-        pics = (ImageView) findViewById(R.id.cafePic);
-        pics2 = (ImageView) findViewById(R.id.cafePic2);
-        pics3 = (ImageView) findViewById(R.id.cafePic3);
-        pics4 = (ImageView) findViewById(R.id.cafePic4);
-        pics5 = (ImageView) findViewById(R.id.cafePic5);
+        pics = (ImageView) findViewById(R.id.cafePic); //첫번째 사진
+        pics2 = (ImageView) findViewById(R.id.cafePic2); //두번째 사진
+        pics3 = (ImageView) findViewById(R.id.cafePic3); //세번째 사진
+        pics4 = (ImageView) findViewById(R.id.cafePic4); //네번째 사진
+        pics5 = (ImageView) findViewById(R.id.cafePic5); //다섯번째 사진
 
+        //앞서 넘겨받은 카페이름에 따라 아래 조건문에 적용
         String cafeName = getIntent().getStringExtra("CafeName");
 
         /*************************************창원*********************************************/
         if(cafeName.equals("1997영국집")) {
+
+            //각 이미지들의 파일명에 따라 이미지뷰로 사진 보여주기
             pics.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
                     R.drawable.ukhouse1));
             pics2.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,

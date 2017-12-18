@@ -9,7 +9,6 @@ import android.app.Activity;
 import android.widget.Toast;
 
 
-//김도환
 public class MessageBeforeExit { //초기화면에서 뒤로가기 터치시 앱을 정말 종료할 것인지 물어보는 기능
 
     private long backKeyPressedTime = 0; //뒤로가기 누른 후 경과시간을 담을 변수

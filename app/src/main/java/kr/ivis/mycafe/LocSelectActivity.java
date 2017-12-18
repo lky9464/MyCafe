@@ -25,7 +25,7 @@ public class LocSelectActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loc_select);
 
-        //각 지역별 버튼
+        //경남 각 지역별 버튼
         geochang_btn = findViewById(R.id.geochang);
         hapcheon_btn = findViewById(R.id.hapcheon);
         uiryeong_btn = findViewById(R.id.uiryeong);

@@ -40,18 +40,19 @@ public class SecondActivity extends AppCompatActivity {
         location = (Button) findViewById(R.id.locationButton);
 
 
+        //앞서 넘겨받은 카페이름에 따라 아래 조건문에 적용
         String cafeName = getIntent().getStringExtra("CafeName");
 
         /****************************************창원*****************************************/
         if (cafeName.equals("1997영국집")) {
             cafeinfo.setImageDrawable(ContextCompat.getDrawable(SecondActivity.this,
-                    R.drawable.ukhousepic)); //해당카페 대표사진을 보여주는 이미지뷰
-            cafename.setText("이름 : 1997영국집");
-            cafeaddress.setText("위치 : 경남 창원시 의창구 외동반림로248번길 25");
-            cafetime.setText("영업시간 : 10:00 ~ 22:30");
-            call.setText("문의전화");
-            pic.setText("사진 더보기");
-            location.setText("지도보기");
+                    R.drawable.ukhousepic)); //이미지뷰에 해당카페 대표사진을 그리기(보여주기)
+            cafename.setText("이름 : 1997영국집"); //카페 이름
+            cafeaddress.setText("위치 : 경남 창원시 의창구 외동반림로248번길 25"); //카페 주소
+            cafetime.setText("영업시간 : 10:00 ~ 22:30"); //카페 영업시간
+            call.setText("문의전화"); //바로 전화걸기 버튼
+            pic.setText("사진 더보기"); //해당 카페의 추가 사진 보기 버튼
+            location.setText("지도보기"); //해당 카페의 위치를 알 수 있는 지도버튼
 
             //전화버튼
             call.setOnClickListener(new View.OnClickListener() {
@@ -60,7 +61,7 @@ public class SecondActivity extends AppCompatActivity {
                     if (ActivityCompat.checkSelfPermission(SecondActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                         Toast.makeText(SecondActivity.this,"전화 못 걸겠음 권한 없음",Toast.LENGTH_LONG).show();
                     } else {
-                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "010-9035-5338")));
+                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "055-286-1997")));
                     }
                 }
             });
@@ -102,7 +103,7 @@ public class SecondActivity extends AppCompatActivity {
                     if (ActivityCompat.checkSelfPermission(SecondActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                         Toast.makeText(SecondActivity.this,"전화 못 걸겠음 권한 없음",Toast.LENGTH_LONG).show();
                     } else {
-                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "010-9964-9553")));
+                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "055-261-5536")));
                     }
 
                 }
@@ -185,7 +186,7 @@ public class SecondActivity extends AppCompatActivity {
                     if (ActivityCompat.checkSelfPermission(SecondActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                         Toast.makeText(SecondActivity.this,"전화 못 걸겠음 권한 없음",Toast.LENGTH_LONG).show();
                     } else {
-                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "010-9964-9553")));
+                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "055-262-7831")));
                     }
                 }
             });
@@ -215,7 +216,7 @@ public class SecondActivity extends AppCompatActivity {
                     R.drawable.cafe_minon_pic));
             cafename.setText("카페미뇽");
             cafeaddress.setText("경남 창원시 의창구 용지로239번길 34-1");
-            cafetime.setText("영업시간 : 10:00 ~ 22:00");
+            cafetime.setText("영업시간 : 10:00 ~ 22:00 월요일 휴무");
             call.setText("문의전화");
             pic.setText("사진 더보기");
             location.setText("지도보기");
@@ -226,7 +227,7 @@ public class SecondActivity extends AppCompatActivity {
                     if (ActivityCompat.checkSelfPermission(SecondActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                         Toast.makeText(SecondActivity.this,"전화 못 걸겠음 권한 없음",Toast.LENGTH_LONG).show();
                     } else {
-                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "010-9964-9553")));
+                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "010-3687-1217")));
                     }
                 }
             });

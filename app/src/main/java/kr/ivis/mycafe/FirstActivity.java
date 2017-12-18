@@ -18,8 +18,8 @@ public class FirstActivity extends AppCompatActivity {
     private MessageBeforeExit messageBeforeExit;
 
     ConstraintLayout fLayout;
-    TextView title;
-    Button start, dev, howtoapp;
+    TextView title; //제목 텍스트 뷰
+    Button start, dev, howtoapp; //시작하기, 사용법, 개발자정보 3가지 버튼
 
 
     @Override
@@ -46,7 +46,7 @@ public class FirstActivity extends AppCompatActivity {
 
         });
 
-        dev = (Button) findViewById(R.id.developerButton); //개발자정보보기 버튼
+        dev = (Button) findViewById(R.id.developerButton); //개발자정보 보기 버튼
         dev.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -57,7 +57,7 @@ public class FirstActivity extends AppCompatActivity {
         });
 
 
-        howtoapp = (Button) findViewById(R.id.howtoButton);
+        howtoapp = (Button) findViewById(R.id.howtoButton);//사용법 보기 버튼
         howtoapp.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -67,6 +67,7 @@ public class FirstActivity extends AppCompatActivity {
             }
         });
 
+        //앱 종료시 한번 더 묻는 기능 'MessageBeforExit()' 객체생성
         messageBeforeExit = new MessageBeforeExit(this);
 
     }
