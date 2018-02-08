@@ -1,9 +1,5 @@
 package kr.ivis.mycafe;
 
-/**
- * Created by KimDongGle on 2017-12-11.
- */
-
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -14,7 +10,6 @@ import android.widget.RelativeLayout;
 
 public class PicActivity extends AppCompatActivity {
 
-    //김도환
     ImageView pics, pics2, pics3, pics4, pics5;
     RelativeLayout pLayout;
 
@@ -61,18 +56,6 @@ public class PicActivity extends AppCompatActivity {
                     R.drawable.s9_4));
             pics5.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
                     R.drawable.s9_5));
-        }
-        else if(cafeName.equals("스페이스펀")) {
-            pics.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.spacefun1));
-            pics2.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.spacefun2));
-            pics3.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.spacefun3));
-            pics4.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.spacefun4));
-            pics5.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.spacefun5));
         }
         else if(cafeName.equals("가로수")) {
             pics.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
@@ -1424,89 +1407,89 @@ public class PicActivity extends AppCompatActivity {
         /*************************************진주*********************************************/
 
         /*************************************하동*********************************************/
-        else if(cafeName.equals("카페로드100")) {
+        else if(cafeName.equals("데일리 에스프레소")) {
             pics.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.caferoad100_1));
+                    R.drawable.dailyespresso1));
             pics2.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.caferoad100_2));
+                    R.drawable.dailyespresso2));
             pics3.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.caferoad100_3));
+                    R.drawable.dailyespresso3));
             pics4.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.caferoad100_4));
+                    R.drawable.dailyespresso4));
             pics5.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.caferoad100_5));
+                    R.drawable.dailyespresso5));
         }
-        else if(cafeName.equals("블리스커피 보문점")) {
+        else if(cafeName.equals("브람스를 좋아하세요")) {
             pics.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.blisscoffee1));
+                    R.drawable.brahms1));
             pics2.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.blisscoffee2));
+                    R.drawable.brahms2));
             pics3.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.blisscoffee3));
+                    R.drawable.brahms3));
             pics4.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.blisscoffee4));
+                    R.drawable.brahms4));
             pics5.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.blisscoffee5));
+                    R.drawable.brahms5));
         }
-        else if(cafeName.equals("품안")) {
+        else if(cafeName.equals("브릿지130")) {
             pics.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.pooman1));
+                    R.drawable.bridge130_1));
             pics2.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.pooman2));
+                    R.drawable.bridge130_2));
             pics3.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.pooman3));
+                    R.drawable.bridge130_3));
             pics4.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.pooman4));
+                    R.drawable.bridge130_4));
             pics5.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.pooman5));
+                    R.drawable.bridge130_5));
         }
-        else if(cafeName.equals("누마루한옥커피")) {
+        else if(cafeName.equals("쉼표하나")) {
             pics.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.numaru1));
+                    R.drawable.onecomma1));
             pics2.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.numaru2));
+                    R.drawable.onecomma2));
             pics3.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.numaru3));
+                    R.drawable.onecomma3));
             pics4.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.numaru4));
+                    R.drawable.onecomma4));
             pics5.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.numaru5));
+                    R.drawable.onecomma5));
         }
-        else if(cafeName.equals("소더비")) {
+        else if(cafeName.equals("파이나무")) {
             pics.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.sotheby1));
+                    R.drawable.pietree1));
             pics2.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.sotheby2));
+                    R.drawable.pietree2));
             pics3.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.sotheby3));
+                    R.drawable.pietree3));
             pics4.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.sotheby4));
+                    R.drawable.pietree4));
             pics5.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.sotheby5));
+                    R.drawable.pietree5));
         }
-        else if(cafeName.equals("커피앤크레마")) {
+        else if(cafeName.equals("평사리의아침")) {
             pics.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.coffeeandcrema1));
+                    R.drawable.pyeongsa1));
             pics2.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.coffeeandcrema2));
+                    R.drawable.pyeongsa2));
             pics3.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.coffeeandcrema3));
+                    R.drawable.pyeongsa3));
             pics4.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.coffeeandcrema4));
+                    R.drawable.pyeongsa4));
             pics5.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.coffeeandcrema5));
+                    R.drawable.pyeongsa5));
         }
-        else if(cafeName.equals("한옥카페부연")) {
+        else if(cafeName.equals("하동 스토리하우스카페")) {
             pics.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.buyeon1));
+                    R.drawable.storyhouse1));
             pics2.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.buyeon2));
+                    R.drawable.storyhouse2));
             pics3.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.buyeon3));
+                    R.drawable.storyhouse3));
             pics4.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.buyeon4));
+                    R.drawable.storyhouse4));
             pics5.setImageDrawable(ContextCompat.getDrawable(PicActivity.this,
-                    R.drawable.buyeon5));
+                    R.drawable.storyhouse5));
         }
         /*************************************하동*********************************************/
 

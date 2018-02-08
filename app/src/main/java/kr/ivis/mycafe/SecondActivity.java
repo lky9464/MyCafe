@@ -87,48 +87,6 @@ public class SecondActivity extends AppCompatActivity {
             });
 
         }
-        else if (cafeName.equals("스페이스펀")) {
-            cafeinfo.setImageDrawable(ContextCompat.getDrawable(SecondActivity.this,
-                    R.drawable.spacefunpic));
-            cafename.setText("스페이스펀");
-            cafeaddress.setText("경남 창원시 의창구 창이대로417번길 25");
-            cafetime.setText("영업시간 : 10:00 ~ 23:00");
-            call.setText("문의전화");
-            pic.setText("사진 더보기");
-            location.setText("지도보기");
-
-            call.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if (ActivityCompat.checkSelfPermission(SecondActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                        Toast.makeText(SecondActivity.this,"전화 못 걸겠음 권한 없음",Toast.LENGTH_LONG).show();
-                    } else {
-                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "055-261-5536")));
-                    }
-
-                }
-            });
-
-            //사진더보기 버튼
-            pic.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(SecondActivity.this, PicActivity.class);
-                    intent.putExtra("CafeName",getIntent().getStringExtra("CafeName"));
-                    startActivity(intent);
-                }
-            });
-
-            //지도보기 버튼
-            location.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(SecondActivity.this, MapsActivity.class);
-                    intent.putExtra("CafeName", getIntent().getStringExtra("CafeName"));
-                    startActivity(intent);
-                }
-            });
-        }
         else if (cafeName.equals("S9")) {
             cafeinfo.setImageDrawable(ContextCompat.getDrawable(SecondActivity.this,
                     R.drawable.s9pic));
@@ -4891,12 +4849,12 @@ public class SecondActivity extends AppCompatActivity {
         /*************************************진주*********************************************/
 
         /*************************************하동*********************************************/
-        else if (cafeName.equals("카페로드100")) {
+        else if (cafeName.equals("데일리 에스프레소")) {
             cafeinfo.setImageDrawable(ContextCompat.getDrawable(SecondActivity.this,
-                    R.drawable.caferoad100_pic));
-            cafename.setText("카페로드100");
-            cafeaddress.setText("경북 경주시 보불로 100");
-            cafetime.setText("영업시간 : 평일 10:30 ~ 23:00 주말 10:00 ~ 23:00");
+                    R.drawable.dailyespresso_pic));
+            cafename.setText("데일리 에스프레소");
+            cafeaddress.setText("경남 하동군 하동읍 경서대로 158");
+            cafetime.setText("영업시간 : 매일 10:00 ~ 23:00");
             call.setText("문의전화");
             pic.setText("사진 더보기");
             location.setText("지도보기");
@@ -4907,7 +4865,7 @@ public class SecondActivity extends AppCompatActivity {
                     if (ActivityCompat.checkSelfPermission(SecondActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                         Toast.makeText(SecondActivity.this,"전화 못 걸겠음 권한 없음",Toast.LENGTH_LONG).show();
                     } else {
-                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "054-741-7401")));
+                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "055-882-0885")));
                     }
 
                 }
@@ -4934,12 +4892,12 @@ public class SecondActivity extends AppCompatActivity {
             });
 
         }
-        else if (cafeName.equals("블리스커피 보문점")) {
+        else if (cafeName.equals("브람스를 좋아하세요")) {
             cafeinfo.setImageDrawable(ContextCompat.getDrawable(SecondActivity.this,
-                    R.drawable.blisscoffee_pic));
-            cafename.setText("블리스커피 보문점");
-            cafeaddress.setText("경북 경주시 보불로 158");
-            cafetime.setText("영업시간 : 10:00 ~ 22:00");
+                    R.drawable.brahms_pic));
+            cafename.setText("브람스를 좋아하세요");
+            cafeaddress.setText("경남 하동군 하동읍 중앙3길 5");
+            cafetime.setText("영업시간 : 유동적");
             call.setText("문의전화");
             pic.setText("사진 더보기");
             location.setText("지도보기");
@@ -4950,7 +4908,7 @@ public class SecondActivity extends AppCompatActivity {
                     if (ActivityCompat.checkSelfPermission(SecondActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                         Toast.makeText(SecondActivity.this,"전화 못 걸겠음 권한 없음",Toast.LENGTH_LONG).show();
                     } else {
-                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "010-7740-6277")));
+                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "055-882-2200")));
                     }
 
                 }
@@ -4977,12 +4935,12 @@ public class SecondActivity extends AppCompatActivity {
             });
 
         }
-        else if (cafeName.equals("품안")) {
+        else if (cafeName.equals("브릿지130")) {
             cafeinfo.setImageDrawable(ContextCompat.getDrawable(SecondActivity.this,
-                    R.drawable.pooman_pic));
-            cafename.setText("품안");
-            cafeaddress.setText("경북 경주시 새골길 191");
-            cafetime.setText("영업시간 : 12:00 ~ 22:00");
+                    R.drawable.bridge130_pic));
+            cafename.setText("브릿지130");
+            cafeaddress.setText("경남 하동군 화개면 화개로 334");
+            cafetime.setText("영업시간 : 매일 10:00 ~ 19:00, 수요일 휴무");
             call.setText("문의전화");
             pic.setText("사진 더보기");
             location.setText("지도보기");
@@ -4993,7 +4951,7 @@ public class SecondActivity extends AppCompatActivity {
                     if (ActivityCompat.checkSelfPermission(SecondActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                         Toast.makeText(SecondActivity.this,"전화 못 걸겠음 권한 없음",Toast.LENGTH_LONG).show();
                     } else {
-                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "054-777-1047")));
+                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "055-882-1735")));
                     }
 
                 }
@@ -5020,12 +4978,12 @@ public class SecondActivity extends AppCompatActivity {
             });
 
         }
-        else if (cafeName.equals("누마루한옥커피")) {
+        else if (cafeName.equals("쉼표하나")) {
             cafeinfo.setImageDrawable(ContextCompat.getDrawable(SecondActivity.this,
-                    R.drawable.numaru_pic));
-            cafename.setText("누마루한옥커피");
-            cafeaddress.setText("경북 경주시 보불로 267");
-            cafetime.setText("영업시간 : 10:00 ~ 22:00");
+                    R.drawable.onecomma_pic));
+            cafename.setText("쉼표하나");
+            cafeaddress.setText("경남 하동군 화개면 화개로 19");
+            cafetime.setText("영업시간 : 매일 09:30 ~ 22:00");
             call.setText("문의전화");
             pic.setText("사진 더보기");
             location.setText("지도보기");
@@ -5036,7 +4994,7 @@ public class SecondActivity extends AppCompatActivity {
                     if (ActivityCompat.checkSelfPermission(SecondActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                         Toast.makeText(SecondActivity.this,"전화 못 걸겠음 권한 없음",Toast.LENGTH_LONG).show();
                     } else {
-                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "054-745-3538")));
+                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "070-4141-2458")));
                     }
 
                 }
@@ -5063,12 +5021,12 @@ public class SecondActivity extends AppCompatActivity {
             });
 
         }
-        else if (cafeName.equals("소더비")) {
+        else if (cafeName.equals("파이나무")) {
             cafeinfo.setImageDrawable(ContextCompat.getDrawable(SecondActivity.this,
-                    R.drawable.sotheby_pic));
-            cafename.setText("소더비");
-            cafeaddress.setText("경북 경주시 보불로 174-3");
-            cafetime.setText("영업시간 : 10:00 ~ 22:00");
+                    R.drawable.pietree_pic));
+            cafename.setText("파이나무");
+            cafeaddress.setText("경남 하동군 악양면 악양서로 129");
+            cafetime.setText("영업시간 : 매일 09:30 ~ 19:00");
             call.setText("문의전화");
             pic.setText("사진 더보기");
             location.setText("지도보기");
@@ -5079,7 +5037,7 @@ public class SecondActivity extends AppCompatActivity {
                     if (ActivityCompat.checkSelfPermission(SecondActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                         Toast.makeText(SecondActivity.this,"전화 못 걸겠음 권한 없음",Toast.LENGTH_LONG).show();
                     } else {
-                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "054-771-4433")));
+                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "055-882-8295")));
                     }
 
                 }
@@ -5106,12 +5064,12 @@ public class SecondActivity extends AppCompatActivity {
             });
 
         }
-        else if (cafeName.equals("커피앤크레마")) {
+        else if (cafeName.equals("평사리의아침")) {
             cafeinfo.setImageDrawable(ContextCompat.getDrawable(SecondActivity.this,
-                    R.drawable.coffeeandcrema_pic));
-            cafename.setText("커피앤크레마");
-            cafeaddress.setText("경북 경주시 하동분접길 7");
-            cafetime.setText("영업시간 : 10:00 ~ 22:00");
+                    R.drawable.pyeongsa_pic));
+            cafename.setText("평사리의아침");
+            cafeaddress.setText("경남 하동군 악양면 대촌길 46-14");
+            cafetime.setText("영업시간 : 유동적");
             call.setText("문의전화");
             pic.setText("사진 더보기");
             location.setText("지도보기");
@@ -5122,7 +5080,7 @@ public class SecondActivity extends AppCompatActivity {
                     if (ActivityCompat.checkSelfPermission(SecondActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                         Toast.makeText(SecondActivity.this,"전화 못 걸겠음 권한 없음",Toast.LENGTH_LONG).show();
                     } else {
-                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "070-4201-1261")));
+                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "055-883-3205")));
                     }
 
                 }
@@ -5149,12 +5107,12 @@ public class SecondActivity extends AppCompatActivity {
             });
 
         }
-        else if (cafeName.equals("한옥카페부연")) {
+        else if (cafeName.equals("하동 스토리하우스카페")) {
             cafeinfo.setImageDrawable(ContextCompat.getDrawable(SecondActivity.this,
-                    R.drawable.buyeon_pic));
-            cafename.setText("한옥카페부연");
-            cafeaddress.setText("경북 경주시 보불로 88");
-            cafetime.setText("영업시간 : 12:00 ~ 22:00");
+                    R.drawable.storyhouse_pic));
+            cafename.setText("하동 스토리하우스카페");
+            cafeaddress.setText("경남 하동군 하동읍 섬진강대로 1877");
+            cafetime.setText("영업시간 : 매일 09:00 ~ 22:00");
             call.setText("문의전화");
             pic.setText("사진 더보기");
             location.setText("지도보기");
@@ -5165,7 +5123,7 @@ public class SecondActivity extends AppCompatActivity {
                     if (ActivityCompat.checkSelfPermission(SecondActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                         Toast.makeText(SecondActivity.this,"전화 못 걸겠음 권한 없음",Toast.LENGTH_LONG).show();
                     } else {
-                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "054-744-1101")));
+                        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "055-884-3308")));
                     }
 
                 }

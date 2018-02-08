@@ -63,13 +63,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             mMap.moveCamera(CameraUpdateFactory.zoomTo(16));
         }
-        else if(cafeName.equals("스페이스펀")){
-            LatLng cl = new LatLng(35.242257, 128.685242);
-            mMap.addMarker(new MarkerOptions().position(cl).title("스페이스펀"));
-            mMap.moveCamera(CameraUpdateFactory.newLatLng(cl));
-
-            mMap.moveCamera(CameraUpdateFactory.zoomTo(16));
-        }
         else if(cafeName.equals("가로수")){
             LatLng cl = new LatLng(35.236321, 128.685219);
             mMap.addMarker(new MarkerOptions().position(cl).title("가로수"));
@@ -879,51 +872,51 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         /*************************************진주*********************************************/
 
         /*************************************하동*********************************************/
-        else if(cafeName.equals("카페로드100")){
-            LatLng cl = new LatLng(35.793957, 129.314389);
-            mMap.addMarker(new MarkerOptions().position(cl).title("카페로드100"));
+        else if(cafeName.equals("데일리 에스프레소")){
+            LatLng cl = new LatLng(35.068828, 127.750670);
+            mMap.addMarker(new MarkerOptions().position(cl).title("데일리 에스프레소"));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(cl));
 
             mMap.moveCamera(CameraUpdateFactory.zoomTo(16));
         }
-        else if(cafeName.equals("블리스커피 보문점")){
-            LatLng cl = new LatLng(35.727018, 129.321789);
-            mMap.addMarker(new MarkerOptions().position(cl).title("블리스커피 보문점"));
+        else if(cafeName.equals("브람스를 좋아하세요")){
+            LatLng cl = new LatLng(35.070474, 127.746483);
+            mMap.addMarker(new MarkerOptions().position(cl).title("브람스를 좋아하세요"));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(cl));
 
             mMap.moveCamera(CameraUpdateFactory.zoomTo(16));
         }
-        else if(cafeName.equals("품안")){
-            LatLng cl = new LatLng(35.798390, 129.312194);
-            mMap.addMarker(new MarkerOptions().position(cl).title("품안"));
+        else if(cafeName.equals("브릿지130")){
+            LatLng cl = new LatLng(35.213566, 127.638197);
+            mMap.addMarker(new MarkerOptions().position(cl).title("브릿지130"));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(cl));
 
             mMap.moveCamera(CameraUpdateFactory.zoomTo(16));
         }
-        else if(cafeName.equals("누마루한옥커피")){
-            LatLng cl = new LatLng(35.806409, 129.308147);
-            mMap.addMarker(new MarkerOptions().position(cl).title("누마루한옥커피"));
+        else if(cafeName.equals("쉼표하나")){
+            LatLng cl = new LatLng(35.190139, 127.623521);
+            mMap.addMarker(new MarkerOptions().position(cl).title("쉼표하나"));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(cl));
 
             mMap.moveCamera(CameraUpdateFactory.zoomTo(16));
         }
-        else if(cafeName.equals("소더비")){
-            LatLng cl = new LatLng(35.800192, 129.313971);
-            mMap.addMarker(new MarkerOptions().position(cl).title("소더비"));
+        else if(cafeName.equals("파이나무")){
+            LatLng cl = new LatLng(35.150367, 127.691148);
+            mMap.addMarker(new MarkerOptions().position(cl).title("파이나무"));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(cl));
 
             mMap.moveCamera(CameraUpdateFactory.zoomTo(16));
         }
-        else if(cafeName.equals("커피앤크레마")){
-            LatLng cl = new LatLng(35.808909, 129.306753);
-            mMap.addMarker(new MarkerOptions().position(cl).title("커피앤크레마"));
+        else if(cafeName.equals("평사리의아침")){
+            LatLng cl = new LatLng(35.156358, 127.692406);
+            mMap.addMarker(new MarkerOptions().position(cl).title("평사리의아침"));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(cl));
 
             mMap.moveCamera(CameraUpdateFactory.zoomTo(16));
         }
-        else if(cafeName.equals("한옥카페부연")){
-            LatLng cl = new LatLng(35.792180, 129.314119);
-            mMap.addMarker(new MarkerOptions().position(cl).title("한옥카페부연"));
+        else if(cafeName.equals("하동 스토리하우스카페")){
+            LatLng cl = new LatLng(35.058454, 127.766701);
+            mMap.addMarker(new MarkerOptions().position(cl).title("하동 스토리하우스카페"));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(cl));
 
             mMap.moveCamera(CameraUpdateFactory.zoomTo(16));

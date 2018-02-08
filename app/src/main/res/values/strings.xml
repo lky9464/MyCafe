@@ -146,7 +146,6 @@
         <item>더 클라우드</item>
         <item>브라운핸즈</item>
         <item>스팀펑크</item>
-        <item>스페이스펀</item>
         <item>카페미뇽</item>
         <item>컴포즈 창원시청점</item>
         <item>타르타르 상남점</item>
@@ -175,13 +174,13 @@
     </string-array>
 
     <string-array name="cafes_하동군">
-        <item>누마루한옥커피</item>
-        <item>블리스커피 보문점</item>
-        <item>소더비</item>
-        <item>카페로드100</item>
-        <item>커피앤크레마</item>
-        <item>품안</item>
-        <item>한옥카페부연</item>
+        <item>데일리 에스프레소</item>
+        <item>브람스를 좋아하세요</item>
+        <item>브릿지130</item>
+        <item>쉼표하나</item>
+        <item>파이나무</item>
+        <item>평사리의아침</item>
+        <item>하동 스토리하우스카페</item>
     </string-array>
 
     <string-array name="cafes_함안군">
