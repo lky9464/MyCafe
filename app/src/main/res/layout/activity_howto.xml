@@ -41,4 +41,14 @@
         android:text="TextView"
         android:textColor="@android:color/black"
         android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/aboutAuthority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="34dp"
+        android:text="지도보기, 전화걸기 기능을 사용하고 싶어요!"
+        android:textColor="@android:color/holo_red_dark" />
 </RelativeLayout>
